@@ -16,7 +16,10 @@ extensions = [
     "myst_parser",
     "sphinx_copybutton",
     "sphinx_design",
+    "sphinx.ext.graphviz",
+    "sphinxcontrib.tikz",
 ]
+tikz_proc_suite = "GhostScript"
 
 exclude_patterns = ["Thumbs.db", ".DS_Store", ".ipynb_checkpoints", "README.md", "cards/*"]
 
